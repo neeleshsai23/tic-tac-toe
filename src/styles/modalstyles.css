@@ -1,0 +1,92 @@
+.modalBox {
+  background-color: #B0C4DE;
+  opacity: 1;
+  width: 300px;
+  height: 135px;
+}
+
+.modalOverlay {
+  background-color: transparent;
+}
+
+.selectbtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectbtns button {
+  outline: none;
+}
+
+p {
+  font-family: 'Bungee', cursive;
+  text-align: center;
+}
+
+.playerbtn {
+  font-family: 'Bungee', cursive;
+  font-size: 2em;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@-webkit-keyframes enterAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes enterAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes leaveAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes leaveAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.resultbox button {
+  outline: none;
+}
+
+.resultbox div {
+  display: flex;
+  justify-content: center;
+}
+
+.retrybtn {
+  width: 30px;
+  height: auto;
+  border: none;
+  font-size: 2em;
+  background-color: inherit;
+  color: #B22222;
+}
